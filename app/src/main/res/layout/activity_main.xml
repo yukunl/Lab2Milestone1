@@ -21,7 +21,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="63dp"
+        android:layout_width="80dp"
         android:layout_height="41dp"
         android:text="Button"
         android:onClick="clickFunction"
