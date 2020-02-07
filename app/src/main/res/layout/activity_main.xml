@@ -31,4 +31,19 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="20dp" />
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="enter your name"
+        app:layout_constraintEnd_toEndof="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toBottomof="@id/textView"
+       android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="213dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
