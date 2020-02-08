@@ -32,8 +32,8 @@
         android:layout_marginTop="20dp" />
 
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        android:id="@+id/myTextField"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
@@ -43,7 +43,7 @@
         app:layout_constraintTop_toBottomof="@id/textView"
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="213dp" />
+        tools:layout_editor_absoluteY="213dp"
+         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
