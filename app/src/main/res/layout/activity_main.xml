@@ -35,15 +35,13 @@
         android:id="@+id/myTextField"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
         android:ems="10"
+        android:hint="Enter your name"
         android:inputType="textPersonName"
-        android:hint="enter your name"
-        app:layout_constraintEnd_toEndof="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintTop_toBottomof="@id/textView"
-        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="213dp"
-         />
+        app:layout_constraintTop_toBottomOf="@id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
